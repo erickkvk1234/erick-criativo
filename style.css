@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-header{
+.cabeçalho{
     background-color: #060017;
     color: white;
     display: flex;
@@ -13,11 +13,61 @@ header{
 }
 
     .cabeçalho-imagem{
-width: 15%;
+width: 10%;
     }
 
     .cabeçalho-lista-item{
         display: inline-block;
         margin: 0 77px;
         font-size: 24px;
+    }
+    .loja-de-esportes-imagem{
+        width:20% ;
+    }
+
+    .loja-de-esportes{
+        background-image: linear-gradient(#060017,#07FADD);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+
+    .loja-de-esportes-div-conteudo{
+        width: 60%;
+    }
+    .loja-esportes-titulo{
+        padding: 24px 0;
+    }
+
+    .imagem-produto{
+        width: 200px;
+    }
+
+    .imagem-produto{
+        width: 120px;
+    }
+
+    .produto-div{
+        align-items: center;
+    }
+
+    .produtos-titulos{
+    text-align: center;
+    padding: 50px 0;
+    }
+   
+    .imagem-todos{
+        display: grid;
+        grid-template-columns: 5% 5% 5% 5% 5% 5%;
+    }
+
+    .rodape{
+        background-color: black;
+    }
+
+    .rodape-imagem{
+        height: 60px;
+
     }
